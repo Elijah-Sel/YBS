@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+a, link {
+    text-decoration: none;
+    padding: 0px;
+    color: black;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.content-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+/*whole header*/
+header {background-color: black;}
+
+header a {
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: seashell;
+}
+
+.nav-center a {margin: 10px;}
+.nav-right a {margin: 5px;}
+
+.nav-right {
+    position: absolute;
+    right: 20px;
+}
+
+.title p {
+    display: block;
+    font-size: 40px;
+    size: 30px;
+    color: seashell;
+    justify-content: center;
+    padding: 20px;
+    width: 80px;
+    color: rgb(242, 173, 12);
+}
+
+/*main*/
+.gallery {
+  display: block;
+  justify-self: center;
+  max-height: 560px;
+  min-width: 100%;
+  object-fit: cover; /* fills box, keeps proportion, crops excess */
+  object-position: center;
+}
+
+main h2 {
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+    margin: 0;
+}
+
+main p {
+    display: block;
+    max-width: 80%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;
+    line-height: 30px;
+    color: rgb(242, 173, 12);
+    margin: 20px;
+}
+
+main iframe {
+    width: 80%;
+    height: 600px;
+}
